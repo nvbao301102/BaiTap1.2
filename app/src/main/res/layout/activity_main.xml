@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragmentLayout"
+        android:layout_width="390dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        android:text="Fragment1"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:padding="10dp"
+        android:text="Fragment2"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <EditText
+        android:id="@+id/edtText"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginTop="20dp"
+        android:hint="Tên của bạn: "
+        android:padding="10dp"
+        android:textSize="16sp"
+        tools:ignore="Autofill,HardcodedText,TextFields">
+
+    </EditText>
+
+</LinearLayout>
